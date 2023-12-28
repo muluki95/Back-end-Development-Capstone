@@ -8,7 +8,7 @@ from django.contrib.auth.hashers import make_password
 
 from concert.forms import LoginForm, SignUpForm
 from concert.models import Concert, ConcertAttending
-import requests 
+import requests as req
 
 
 # Create your views here.
